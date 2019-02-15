@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="badge">#009900</color>
+    <color name="arrow">#ffff</color>
+    <color name="colorPrimary">#d23534</color>
+    <color name="colorPrimaryDark">#c70b27</color>
+    <color name="grey2">#D4D4D5</color>
+    <color name="colorPrimaryCenter">#00575B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#f5f5f5f5</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="green">#69c730</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="view_line">#dedede</color>
+    <color name="light_black">#232323</color>
+    <color name="app_background_color">#FAFAFA</color>
+    <color name="item_selected_background_color">#C7C7CC</color>
+    <color name="badge_Color">#97dd5b</color>
+</resources>

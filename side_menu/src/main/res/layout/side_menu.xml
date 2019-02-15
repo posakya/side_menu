@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="start"
+        android:id="@+id/Drawer_View"
+        android:background="#2f2f2f"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="#2f2f2f"
+            android:id="@+id/linear"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:src="@drawable/ic_drawer"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="7dp"
+                android:layout_gravity="center"
+                android:id="@+id/user_image"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp" />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/user_image"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:id="@+id/userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza Worlds"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/edit_regNo"
+                    android:text="Edit Profile"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/user_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_below="@+id/linear1"
+                android:background="#dedede"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:scrollbarThumbVertical="@android:color/transparent"
+            android:layout_below="@+id/linear"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_sliding_menu"
+            android:background="@android:color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="#dedede"
+            android:dividerHeight="0.3dp">
+        </ListView>
+
+</RelativeLayout>
